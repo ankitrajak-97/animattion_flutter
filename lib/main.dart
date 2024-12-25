@@ -1,4 +1,4 @@
-import 'package:animated_container/crossFade.dart';
+import 'package:animated_container/hero_animation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: const CrossFade(),
+      home: HeroAnimation(),
     );
   }
 }

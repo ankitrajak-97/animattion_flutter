@@ -45,7 +45,7 @@ class CrossFadeStates extends State<CrossFade> {
                   color: Colors.black,
                 ),
                 secondChild: Image.asset(
-                  'assets/images/butterfly.webp',
+                  'assets/images/party.png',
                   width: 300,
                   height: 400,
                 ),
@@ -58,7 +58,7 @@ class CrossFadeStates extends State<CrossFade> {
                 onPressed: () {
                   reload();
                 },
-                child: Text('Animate'))
+                child: Text('Animate')),
           ],
         ),
       ),
