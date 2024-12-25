@@ -17,18 +17,21 @@ class HeroState extends State<HeroAnimation> {
         child: Container(
           child: Hero(
               tag: 'Santa',
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      (MaterialPageRoute(
-                        builder: (context) => Detailpage(),
-                      )));
-                },
-                child: Image.asset(
-                  'assets/images/party.png',
-                  width: 150,
-                  height: 150,
+              child: Material(
+                color: Colors.transparent,
+                child: InkWell(
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        (MaterialPageRoute(
+                          builder: (context) => Detailpage(),
+                        )));
+                  },
+                  child: Image.asset(
+                    'assets/images/party.png',
+                    width: 150,
+                    height: 150,
+                  ),
                 ),
               )),
           color: Colors.indigoAccent,
