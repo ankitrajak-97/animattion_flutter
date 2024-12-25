@@ -20,6 +20,7 @@ class AnimatedState extends State<AnimatedOppacity> {
           AnimatedOpacity(
             opacity: myOpacity,
             duration: Duration(seconds: 2),
+            curve: Curves.elasticOut,
             child: Container(
               width: 200,
               height: 200,
