@@ -1,4 +1,4 @@
-import 'package:animated_container/tween_animation.dart';
+import 'package:animated_container/ripple_effect.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       debugShowCheckedModeBanner: false,
-      home: TweenAnimation(),
+      home: RippleEffect(),
     );
   }
 }
